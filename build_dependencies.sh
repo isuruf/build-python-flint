@@ -2,7 +2,7 @@
 
 set -e -x
 
-wget https://gmplib.org/download/gmp-6.1.2.tar.bz2
+wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2
 tar -xf gmp-6.1.2.tar.bz2
 cd gmp-6.1.2
 ./configure --prefix=$BUILD_PREFIX --disable-static --enable-fat
